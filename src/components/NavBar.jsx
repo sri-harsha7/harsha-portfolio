@@ -26,7 +26,7 @@ const NavBar = () => {
           <li className={styles.active}>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
+          <li className={styles.active}>
             <a
               href="https://drive.google.com/file/d/1s1UrSs2nd2k2uX6cVd-o18lJNkw-RPop/view?usp=sharing"
               target="_blank"

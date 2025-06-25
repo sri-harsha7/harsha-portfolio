@@ -3,7 +3,7 @@
     border-radius: 5px;
 }
 .active {
-    padding: 4px;
+    padding: 2px;
 
 }
 .active:focus{
