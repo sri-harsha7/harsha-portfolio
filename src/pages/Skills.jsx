@@ -15,6 +15,7 @@ const Skills = () => {
     "Basic Python",
     "Git",
     "GitHub",
+    "Excel",
   ];
   return (
     <motion.div
