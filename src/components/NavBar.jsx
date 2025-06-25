@@ -5,7 +5,7 @@ import styles from "./NavBar.module.css";
 const NavBar = () => {
   return (
     <div className="flex justify-between items-center p-4 lg:text-2xl border-b border-solid border-b-[#e4eaf1] px-10 py-6">
-      <div> Sri Harsha</div>
+      <div className=" text-2xl lg:text-4xl font-medium">Sri Harsha</div>
       <div className="hidden lg:flex">
         <ul className="flex gap-4">
           <li className={styles.active}>

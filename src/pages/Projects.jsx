@@ -40,20 +40,20 @@ const Projects = () => {
       viewport={{ once: true }}
     >
       <h1 className="text-xl font-bold">Projects</h1>
-      <div class="flex items-stretch justify-between gap-4 rounded-lg bg-slate-50  ">
+      <div className="flex items-stretch justify-between gap-4 rounded-lg bg-slate-50  ">
         <div className="flex flex-[2_2_0px] flex-col gap-4 ">
           {projects.map((project, index) => (
             <div
               key={index}
               className="mt-5 flex flex-col gap-1 shadow-[0_0_4px_rgba(0,0,0,0.1)] p-4  "
             >
-              <p class="text-[#49739c] text-sm font-normal leading-normal">
+              <p className="text-[#49739c] text-sm font-normal leading-normal">
                 {project.type}
               </p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">
+              <p className="text-[#0d141c] text-base font-bold leading-tight">
                 {project.name}
               </p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">
+              <div className="text-[#49739c] text-sm font-normal leading-normal">
                 {project.description
                   .trim()
                   .split("\n")
@@ -62,12 +62,12 @@ const Projects = () => {
                       {point}
                     </div>
                   ))}
-              </p>
+              </div>
               <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#e7edf4] text-[#0d141c] text-sm font-medium leading-normal w-fit"
+                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#e7edf4] text-[#0d141c] text-sm font-medium leading-normal w-fit"
                 onClick={() => window.open(project.link, "_blank")}
               >
-                <span class="truncate">View Project</span>
+                <span className="truncate">View Project</span>
               </button>
             </div>
           ))}

@@ -20,7 +20,7 @@ const Profile = () => {
       <p>Full Stack Developer</p>
       <p>Recent Computer Science Engineering Graduate from India</p>
       <div className="flex flex-wrap items-center  gap-4 mt-4 mx-10 ">
-        <button variant="outline" asChild className="hover-glow">
+        <button variant="outline" className="hover-glow">
           <a
             className="flex items-center"
             href="mailto:sriharshabasavala@gmail.com"
@@ -31,7 +31,7 @@ const Profile = () => {
             sriharshabasavala@gmail.com
           </a>
         </button>
-        <button variant="outline" asChild className="hover-glow">
+        <button variant="outline" className="hover-glow">
           <a
             className="flex items-center"
             href="tel:+91-8897227735"
@@ -43,7 +43,7 @@ const Profile = () => {
           </a>
         </button>
 
-        <button variant="outline" asChild className="hover-glow">
+        <button variant="outline" className="hover-glow">
           <a
             className="flex items-center"
             href="https://linkedin.com/in/sriharshabasavala"
@@ -54,7 +54,7 @@ const Profile = () => {
             LinkedIn
           </a>
         </button>
-        <button variant="outline" asChild className="hover-glow">
+        <button variant="outline" className="hover-glow">
           <a
             className="flex items-center"
             href="https://github.com/sri-harsha7"
@@ -66,8 +66,8 @@ const Profile = () => {
           </a>
         </button>
       </div>
-      <button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full mt-5 h-10 px-4 bg-[#eaedf1] text-[#101518] text-sm font-bold leading-normal tracking-[0.015em] w-50 max-w-[480px] @[480px]:w-auto">
-        <span class="truncate">
+      <button className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full mt-5 h-10 px-4 bg-[#eaedf1] text-[#101518] text-sm font-bold leading-normal tracking-[0.015em] w-50 max-w-[480px] @[480px]:w-auto">
+        <span className="truncate">
           <a
             href={Resume}
             download={Resume}

@@ -11,13 +11,13 @@ const Education = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <h2 class="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+      <h2 className="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         Education
       </h2>
       {/* Graduation */}
-      <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+      <div className="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
         <div
-          class="text-[#0d141c] flex items-center justify-center rounded-lg bg-[#e7edf4] shrink-0 size-12"
+          className="text-[#0d141c] flex items-center justify-center rounded-lg bg-[#e7edf4] shrink-0 size-12"
           data-icon="GraduationCap"
           data-size="24px"
           data-weight="regular"
@@ -33,8 +33,8 @@ const Education = () => {
           </svg>
         </div>
 
-        <div class="flex flex-col justify-center">
-          <p class="text-[#0d141c] text-base font-medium   ">
+        <div className="flex flex-col justify-center">
+          <p className="text-[#0d141c] text-base font-medium   ">
             Dual Degree Integrated (B.Tech + M.Tech) in Computer Science
             Engineering
           </p>
@@ -42,15 +42,15 @@ const Education = () => {
             Indian Institute of Information Technology Design and Manufacturing
             Kancheepuram, Chennai Tamil Nadu.
           </p>
-          <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">
+          <p className="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">
             07/2019 - 05/2024
           </p>
         </div>
       </div>
-      {/* Class XII */}
-      <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 mt-5">
+      {/* class XII */}
+      <div className="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 mt-5">
         <div
-          class="text-[#0d141c] flex items-center justify-center rounded-lg bg-[#e7edf4] shrink-0 size-12"
+          className="text-[#0d141c] flex items-center justify-center rounded-lg bg-[#e7edf4] shrink-0 size-12"
           data-icon="GraduationCap"
           data-size="24px"
           data-weight="regular"
@@ -66,23 +66,23 @@ const Education = () => {
           </svg>
         </div>
 
-        <div class="flex flex-col justify-center">
-          <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
-            Class XII - Mathematics , Physics , Chemistry
+        <div className="flex flex-col justify-center">
+          <p className="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
+            class XII - Mathematics , Physics , Chemistry
           </p>
-          <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
+          <p className="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
             Narayana Junior College, Visakhapatnam Andhra Pradesh
           </p>
           <p>Board of Intermediate Education Andhra Pradesh</p>
-          <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">
+          <p className="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">
             07/2017 - 03/2019
           </p>
         </div>
       </div>
-      {/* Class X */}
-      <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 mt-5">
+      {/* class X */}
+      <div className="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2 mt-5">
         <div
-          class="text-[#0d141c] flex items-center justify-center rounded-lg bg-[#e7edf4] shrink-0 size-12"
+          className="text-[#0d141c] flex items-center justify-center rounded-lg bg-[#e7edf4] shrink-0 size-12"
           data-icon="GraduationCap"
           data-size="24px"
           data-weight="regular"
@@ -98,15 +98,15 @@ const Education = () => {
           </svg>
         </div>
 
-        <div class="flex flex-col justify-center">
-          <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
-            Class X
+        <div className="flex flex-col justify-center">
+          <p className="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
+            class X
           </p>
-          <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
+          <p className="text-[#0d141c] text-base font-medium leading-normal line-clamp-1 ">
             Bhashyam Public High School, Visakhapatnam Andhra Pradesh
           </p>
           <p>Board of Secondary Education Andhra Pradesh</p>
-          <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">
+          <p className="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">
             07/2016 - 03/2017
           </p>
         </div>

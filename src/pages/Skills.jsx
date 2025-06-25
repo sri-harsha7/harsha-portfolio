@@ -11,6 +11,10 @@ const Skills = () => {
     "Node.js",
     "Express.js",
     "MongoDB",
+    "Java",
+    "Basic Python",
+    "Git",
+    "GitHub",
   ];
   return (
     <motion.div
